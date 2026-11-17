@@ -68,8 +68,8 @@ CREATE TABLE IF NOT EXISTS data_barang (
 );
 ```
 
-![Gambar 1. Database latihan1 dan struktur tabel data_barang](<img width="820" height="374" alt="01_database_tabel" src="https://github.com/user-attachments/assets/9cebb4c2-861e-4631-9086-3aaeba0c7e65" />
-)
+<img width="820" height="374" alt="01_database_tabel" src="https://github.com/user-attachments/assets/9cebb4c2-861e-4631-9086-3aaeba0c7e65" />
+
 
 *Gambar 1. Database latihan1 dan struktur tabel data_barang*
 
@@ -77,8 +77,8 @@ CREATE TABLE IF NOT EXISTS data_barang (
 
 Tiga data barang (HP Samsung, HP Xiaomi, dan HP OPPO) dimasukkan ke tabel menggunakan perintah INSERT INTO. Perintah SELECT * digunakan untuk memastikan data sudah tersimpan.
 
-![Gambar 2. Isi tabel data_barang setelah INSERT](<img width="820" height="187" alt="02_data_barang" src="https://github.com/user-attachments/assets/55317b74-4e8e-4485-bb01-abfd6e6fbb45" />
-)
+<img width="820" height="187" alt="02_data_barang" src="https://github.com/user-attachments/assets/55317b74-4e8e-4485-bb01-abfd6e6fbb45" />
+
 
 *Gambar 2. Isi tabel data_barang setelah INSERT*
 
@@ -104,8 +104,8 @@ if ($conn == false)
 ?>
 ```
 
-![Gambar 3. Tes koneksi database berhasil](<img width="820" height="35" alt="03_tes_koneksi" src="https://github.com/user-attachments/assets/d29d64cf-5052-4f24-bf65-5abeaa5d1ea8" />
-)
+<img width="820" height="35" alt="03_tes_koneksi" src="https://github.com/user-attachments/assets/d29d64cf-5052-4f24-bf65-5abeaa5d1ea8" />
+
 
 *Gambar 3. Tes koneksi database berhasil*
 
@@ -113,8 +113,8 @@ if ($conn == false)
 
 File index.php menjalankan query SELECT * FROM data_barang, lalu menampilkan hasilnya dalam tabel HTML menggunakan perulangan while dan mysqli_fetch_array(). Setiap baris memiliki tautan Ubah dan Hapus, serta terdapat tautan Tambah Barang di atas tabel. Jika tabel kosong, ditampilkan tulisan "Belum ada data".
 
-![Gambar 4. Halaman daftar data barang (index.php)](<img width="820" height="416" alt="04_index" src="https://github.com/user-attachments/assets/0a18b909-ab01-425d-a8b8-83de27fe9438" />
-)
+<img width="820" height="416" alt="04_index" src="https://github.com/user-attachments/assets/0a18b909-ab01-425d-a8b8-83de27fe9438" />
+
 
 *Gambar 4. Halaman daftar data barang (index.php)*
 
@@ -124,13 +124,13 @@ File tambah.php menampilkan form input (nama, kategori, harga jual, harga beli, 
 
 Sebagai contoh, ditambahkan barang "TV Samsung" dengan stok 20.
 
-![Gambar 5. Form Tambah Barang](<img width="820" height="441" alt="05_form_tambah" src="https://github.com/user-attachments/assets/e57a8d6c-ce96-4930-ab87-e28623d22023" />
-)
+<img width="820" height="441" alt="05_form_tambah" src="https://github.com/user-attachments/assets/e57a8d6c-ce96-4930-ab87-e28623d22023" />
+
 
 *Gambar 5. Form Tambah Barang*
 
-![Gambar 6. Data TV Samsung berhasil ditambahkan](<img width="820" height="489" alt="06_index_setelah_tambah" src="https://github.com/user-attachments/assets/51d780a7-4c47-4d4f-ad36-d6c25cd664b1" />
-)
+<img width="820" height="489" alt="06_index_setelah_tambah" src="https://github.com/user-attachments/assets/51d780a7-4c47-4d4f-ad36-d6c25cd664b1" />
+
 
 *Gambar 6. Data TV Samsung berhasil ditambahkan*
 
@@ -140,13 +140,13 @@ File ubah.php menerima parameter id melalui URL (ubah.php?id=...), mengambil dat
 
 Pada contoh, kategori TV Samsung diubah menjadi Komputer dan harga jualnya menjadi 4000000.
 
-![Gambar 7. Form Ubah Barang berisi data lama](<img width="820" height="441" alt="07_form_ubah" src="https://github.com/user-attachments/assets/181f6635-e6af-4764-9912-cd1092b8fe9d" />
-)
+<img width="820" height="441" alt="07_form_ubah" src="https://github.com/user-attachments/assets/181f6635-e6af-4764-9912-cd1092b8fe9d" />
+
 
 *Gambar 7. Form Ubah Barang berisi data lama*
 
-![Gambar 8. Data berhasil diubah](<img width="820" height="489" alt="08_index_setelah_ubah" src="https://github.com/user-attachments/assets/40be1ea2-f2a8-42dc-a13e-4995e6a448b5" />
-)
+<img width="820" height="489" alt="08_index_setelah_ubah" src="https://github.com/user-attachments/assets/40be1ea2-f2a8-42dc-a13e-4995e6a448b5" />
+
 
 *Gambar 8. Data berhasil diubah*
 
@@ -169,8 +169,8 @@ exit;
 ?>
 ```
 
-![Gambar 9. Data TV Samsung berhasil dihapus](<img width="820" height="416" alt="09_index_setelah_hapus" src="https://github.com/user-attachments/assets/c3d168a9-4554-4e34-b52f-8e08d1aeabc5" />
-)
+<img width="820" height="416" alt="09_index_setelah_hapus" src="https://github.com/user-attachments/assets/c3d168a9-4554-4e34-b52f-8e08d1aeabc5" />
+
 
 *Gambar 9. Data TV Samsung berhasil dihapus*
 
